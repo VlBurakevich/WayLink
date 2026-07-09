@@ -1,9 +1,7 @@
 package com.solution.waylink;
 
-import javafx.application.Application;
-
 public class Launcher {
     public static void main(String[] args) {
-        Application.launch(HelloApplication.class, args);
+        javafx.application.Application.launch(WaylinkApplication.class, args);
     }
 }
